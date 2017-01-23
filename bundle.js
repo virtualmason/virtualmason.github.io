@@ -21577,7 +21577,6 @@
 	    value: function getPostDetails(postIndex) {
 	      _reactRouter.hashHistory.push('/postdetails');
 	      localStorage.setItem('currentPost', JSON.stringify(this.state.posts[postIndex]));
-	      console.log('posts page', JSON.parse(localStorage.getItem('currentPost')));
 	    }
 	  }, {
 	    key: 'render',
@@ -28203,7 +28202,7 @@
 
 	      var currentPost = JSON.parse(localStorage.getItem('currentPost'));
 	      this.setState({ postData: currentPost });
-	      _axios2.default.get('http://jsonplaceholder.typicode.com/comments?postId=' + currentPost.id).then(function (response) {
+	      _axios2.default.get('https://jsonplaceholder.typicode.com/comments?postId=' + currentPost.id).then(function (response) {
 	        _this2.setState({ postComments: response.data });
 	      }).catch(function (error) {
 	        throw error;
