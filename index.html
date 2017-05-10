@@ -1,11 +1,95 @@
-<!DOCTYPE html>
-  <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>React Challenge By Floyd Orr</title>
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  </head>
-  <body>
-    aaaaa
-  </body>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>React Challenge By Floyd Orr</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+  crossorigin="anonymous">
+  <script
+  src="http://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>\
+  <script 
+  src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
+  integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+  crossorigin="anonymous"></script>
+  
+</head>
+
+<body>
+  <i class="photo"></i>
+  <h1 class='text-center' id='header'>Floyd Orr</h1>
+  <h5 class="text-center line">Network of freelance technowledgy experts at your service for maximum value<h5>
+    <div id='mainContainer' class='container text-center'>
+
+    <div id="accordion" role="tablist" aria-multiselectable="false">
+      <div class="card">
+      <div class="card-header" role="tab" id="headingOne">
+     
+          <button class='btn btn-block btn-success' data-toggle="collapse" data-parent="#accordion" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+             <h3>Blog </h3>
+          </button>
+    
+      </div>
+
+      <div id="collapseOne" class="collapse " role="tabpanel" aria-labelledby="headingOne">
+        <div class="card-block">
+          <a href="#1">bug blog</a><br>
+          <a href="#2">Cold Calling Blog</a>
+          <h1>Coming soon stay tuned!</h1>
+        </div>
+      </div>
+    </div>
+      <div class="card">
+      <div class="card-header" role="tab" id="headingTwo">
+        <h5 class="mb-0">
+          <button class="collapsed btn btn-block btn-success" data-toggle="collapse" data-parent="#accordion" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            <h3>Store</h3>
+          </button>
+        </h5>
+  </div>
+  <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
+    <div class="card-block">
+      <h1>Coming soon stay tuned!</h1>
+    </div>
+  </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab" id="headingThree">
+      <h5 class="mb-0">
+          <button class="collapsed btn btn-block btn-success" data-toggle="collapse" data-parent="#accordion" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            <h3>How to use</h3>
+          </button>
+        </h5>
+    </div>
+    <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree">
+      <div class="card-block">
+        <h1>Coming soon stay tuned!</h1>
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab" id="headingFour">
+      <h5 class="mb-0">
+          <button class="collapsed btn btn-block btn-success" data-toggle="collapse" data-parent="#accordion" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+            <h3>Schedule</h3>
+          </button>
+        </h5>
+    </div>
+    <div id="collapseFour" class="collapse" role="tabpanel" aria-labelledby="headingFour">
+      <div class="card-block">
+        <!-- Calendly inline widget begin -->
+        <div class="calendly-inline-widget" data-url="https://calendly.com/floyd-2" style="min-width:320px;height:580px;"></div>
+        <script type="text/javascript" src="https://calendly.com/assets/external/widget.js"></script>
+        <!-- Calendly inline widget end -->
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <footer class='text-center'>&copy; aaa</footer>
+</body>
+
 </html>
