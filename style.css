@@ -1,0 +1,16 @@
+#header {
+  margin: 50px;
+}
+#mainContainer {
+  /*background-color: #5cb85c;*/
+}
+.line {
+  margin-top: 40px;
+}
+
+@media screen and (max-width: 500px) {
+ .container{
+    width: 100%;
+
+  }
+}
