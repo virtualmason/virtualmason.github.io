@@ -1,6 +1,9 @@
 .article-header {
   margin: 20px;
 }
+.who-quoted {
+  color:gold;
+}
 #mainContainer {
   /*background-color: #5cb85c;*/
 }
