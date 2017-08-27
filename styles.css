@@ -17,6 +17,11 @@ p.right-b {
     width: 100%;
   }
 }
+@media screen and (min-width: 800px) {
+     p.right-b {
+  border-right-style: solid;
+}
+}
 img {
   border-radius: 50%;
   display: block;
