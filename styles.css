@@ -14,9 +14,10 @@
     width: 100%;
   }
       p.right-b {
-  border-right-style: solid;
+  border-bottom-style: dotted;
+  }
 }
-}
+@media screen and (min-width: 600px) {
 
      p.right-b {
   border-bottom-style: solid;
