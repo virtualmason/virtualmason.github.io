@@ -8,21 +8,23 @@
 .line {
   margin-top: 40px;
 }
-
-@media screen and (max-width: 500px) {
- .container{
+.container {
     width: 100%;
   }
+
+@media only screen and (max-width: 500px) {
+ 
       p.right-b {
   border-bottom-style: dotted;
   }
 }
-@media screen and (min-width: 600px) {
+@media only screen and (min-width: 600px) {
 
      p.right-b {
   border-bottom-style: solid;
+  }
 }
-}
+
 img {
   border-radius: 50%;
   display: block;
