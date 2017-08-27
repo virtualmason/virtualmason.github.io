@@ -13,10 +13,13 @@
  .container{
     width: 100%;
   }
-}
-@media screen and (min-width: 800px) {
-     p.right-b {
+      p.right-b {
   border-right-style: solid;
+}
+}
+
+     p.right-b {
+  border-bottom-style: solid;
 }
 }
 img {
