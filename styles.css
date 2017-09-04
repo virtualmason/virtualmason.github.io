@@ -30,6 +30,10 @@ Blockquote {
     max-width: 100%;
   }
 }
+#cover {
+max-width:50%;
+max-height"50%;  
+}
 img {
   border-radius: 50%;
   display: block;
