@@ -4,6 +4,10 @@
 .article-header {
   margin: 20px;
 }
+
+.para {
+  font-size: 50%;
+}
 .who-quoted {
   font-weight:bold;
 }
