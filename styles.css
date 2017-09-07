@@ -4,7 +4,9 @@
 .article-header {
   margin: 20px;
 }
-
+blockquote {
+  width: 50%;
+}
 .para {
   font-size: smaller;
 }
