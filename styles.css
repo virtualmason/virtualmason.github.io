@@ -5,7 +5,7 @@
   margin: 20px;
 }
 .blocktext {
-  margin: auto;
+  max-width:50%;
 }
 .para {
   font-size: smaller;
