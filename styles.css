@@ -7,6 +7,7 @@
 .blockword {
   margin:auto;
   width: 50%;
+  color: black;
 }
 .para {
   font-size: smaller;
