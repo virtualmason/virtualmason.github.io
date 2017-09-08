@@ -45,6 +45,8 @@
 
 .blockword {
   margin:auto;
+  width: 50%;
+  
   
   color:green;
 }
