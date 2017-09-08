@@ -8,7 +8,8 @@
   margin:auto;
   width: 50%;
   color: black;
-    font-weight:bold;
+  font-weight:bold;
+  text-decoration: underline;
 
 }
 .para {
