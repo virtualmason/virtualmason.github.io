@@ -44,7 +44,9 @@
 }
 
 .blockword {
-  max-width:30%;
+  margin:auto;
+  
+  color:green;
 }
 .para {
   font-size: smaller;
