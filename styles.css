@@ -5,8 +5,8 @@
   margin: 20px;
 }
 .blockword {
-  
-  width: 65%;
+  margin: auto;
+  width: 50%;
   color: black;
   font-weight:bold;
   text-style:italic;
