@@ -7,7 +7,8 @@
 
 .upper {
 text-transform:capitalize;
-font-weight:  
+font-weight:  900;
+font-family: "Verdana";  
 }
 .para {
   font-size: smaller;
