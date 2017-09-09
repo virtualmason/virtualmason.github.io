@@ -4,12 +4,9 @@
 .article-header {
   margin: 20px;
 }
-.uppercase {
-  text-transform:uppercase;
-}
 
 .upper {
-text-transform:uppercase;
+text-transform:capitalize;
 }
 .para {
   font-size: smaller;
