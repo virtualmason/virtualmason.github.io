@@ -4,12 +4,8 @@
 .article-header {
   margin: 20px;
 }
-.blockword {
-  margin: auto;
-  width: 50%;
-  color: black;
-  font-weight:bold;
-
+.uppercase {
+  text-stransform:uppercase;
 }
 
 .upper {
