@@ -6,7 +6,8 @@
 .article-header {
   margin: 20px;
 }
-
+a:link {
+color:grey;}
 .upper {
 text-transform:capitalize;
 }
