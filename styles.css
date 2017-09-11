@@ -1,6 +1,6 @@
 *,html {
   max-width:100%;
-  font-family: "Arial Black", Gadget, sans-serif;	
+  font-family: Verdana,"Arial Black", Gadget, sans-serif;	
 
 }
 .article-header {
@@ -10,6 +10,7 @@ a:link {
 color:grey;}
 .upper {
 text-transform:capitalize;
+  max-width:100%;
 }
 
 .btn,btn-block {
