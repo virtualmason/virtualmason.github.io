@@ -13,11 +13,10 @@ text-transform:capitalize;
 }
 
 .btn,btn-block {
-  .btn-responsive {
     white-space: normal !important;
     word-wrap: break-word;
 }
-}
+
 .para {
   font-size: smaller;
 }
