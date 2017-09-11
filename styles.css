@@ -12,7 +12,11 @@ color:grey;}
 text-transform:capitalize;
   max-width:100%;
 }
-
+.upper,bold {
+text-transform:capitalize;
+  max-width:100%;
+font-weight:bold;
+}
 .btn,btn-block {
     white-space: normal !important;
     word-wrap: break-word;
